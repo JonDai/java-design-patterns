@@ -22,10 +22,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="11-abstract-factory" />
         <module name="abstract-factory" />
+      </profile>
+      <profile default="false" name="Annotation profile for 10-factorykit" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="10-factorykit" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="10-factorykit" target="1.8" />
+      <module name="11-abstract-factory" target="1.5" />
       <module name="abstract-factory" target="1.5" />
       <module name="java-design-patterns" target="1.5" />
     </bytecodeTargetLevel>

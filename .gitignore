@@ -1,6 +1,7 @@
 ### Example user template
 
 # IntelliJ project files
+/.gitignore
 .idea
 *.iml
 out
