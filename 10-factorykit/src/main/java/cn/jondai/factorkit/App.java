@@ -9,7 +9,7 @@ package cn.jondai.factorkit;
  *
  * 首先有四种角色:
  *  1.抽象产品 -> Weapon
- *  2.具体产品 -> Axe Bow ...
+ *  2.具体产品 -> Axe、Bow ...
  *  3.抽象工厂 -> WeaponFactory
  *  4.生产者 -> Builder
  *

@@ -4,6 +4,10 @@
 /.gitignore
 .idea
 *.iml
+/.idea
+/java-design-patterns.iml
 out
 gen
+/10-factorykit/10-factorykit.iml
 # Created by .ignore support plugin (hsz.mobi)
+/10-factorykit/target
