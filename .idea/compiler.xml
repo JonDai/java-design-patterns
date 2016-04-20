@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Eclipse" />
     <resourceExtensions />
     <wildcardResourcePatterns>
       <entry name="!?*.java" />
@@ -23,6 +24,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="11-abstract-factory" />
+        <module name="11-factory-method" />
         <module name="abstract-factory" />
       </profile>
       <profile default="false" name="Annotation profile for 10-factorykit" enabled="true">
@@ -33,11 +35,10 @@
         <module name="10-factorykit" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="10-factorykit" target="1.8" />
-      <module name="11-abstract-factory" target="1.5" />
-      <module name="abstract-factory" target="1.5" />
-      <module name="java-design-patterns" target="1.5" />
+      <module name="11-factory-method" target="1.8" />
+      <module name="java-design-patterns" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
