@@ -2,6 +2,22 @@ package cn.jondai.factorkit;
 
 /**
  * Created by JonDai on 2016/4/19.
+ *
+ * 工厂模式：
+ *  使用Lambda表达式来实现的工厂模式不同于一般的简单工厂或者工厂方法模式
+ *  更类似于工厂方法模式
+ *
+ * 首先有四种角色:
+ *  1.抽象产品 -> Weapon
+ *  2.具体产品 -> Axe Bow ...
+ *  3.抽象工厂 -> WeaponFactory
+ *  4.生产者 -> Builder
+ *
+ *  抽象工厂职责：
+ *      1.程序启动时，需要初始化工厂，有了工厂就得需要生产者，并且赋予生产者相应的生产技能，比如生产Axe斧头的技能
+ *      2.通过工厂，我们可以通过需要产品的名称或者其他，来让生产者成产出我们需要的产品
+ *  生产者职责：
+ *      1.如何生产出需要的产品
  */
 public class App {
     /**
@@ -19,7 +35,7 @@ public class App {
             builder.add(WeaponType.SPEAR, Spear::new);
             builder.add(WeaponType.BOW, Bow::new);
         });
-        Weapon axe = factory.create(WeaponType.BOW);
+        Weapon axe = factory.create(WeaponType.AXE);
         System.out.println(axe);
     }
 }
