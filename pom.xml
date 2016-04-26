@@ -18,7 +18,7 @@
 
     </properties>
     <modules>
-        <module>11-abstract-factory</module>
+        <!--<module>11-abstract-factory</module>-->
         <module>10-factorykit</module>
         <module>11-factory-method</module>
     </modules>

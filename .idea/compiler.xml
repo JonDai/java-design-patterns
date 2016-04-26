@@ -37,8 +37,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="10-factorykit" target="1.8" />
-      <module name="11-factory-method" target="1.8" />
-      <module name="java-design-patterns" target="1.8" />
+      <module name="11-factory-method" target="1.5" />
+      <module name="java-design-patterns" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
