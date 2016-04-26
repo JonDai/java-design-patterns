@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/10-factorykit/10-factorykit.iml" filepath="$PROJECT_DIR$/10-factorykit/10-factorykit.iml" />
       <module fileurl="file://$PROJECT_DIR$/11-factory-method/11-factory-method.iml" filepath="$PROJECT_DIR$/11-factory-method/11-factory-method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12_abstract-factory/12_abstract-factory.iml" filepath="$PROJECT_DIR$/12_abstract-factory/12_abstract-factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns.iml" filepath="$PROJECT_DIR$/java-design-patterns.iml" />
     </modules>
   </component>
