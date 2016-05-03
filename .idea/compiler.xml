@@ -26,6 +26,7 @@
         <module name="11-abstract-factory" />
         <module name="11-factory-method" />
         <module name="12_abstract-factory" />
+        <module name="13_singleton" />
         <module name="abstract-factory" />
       </profile>
       <profile default="false" name="Annotation profile for 10-factorykit" enabled="true">
@@ -40,6 +41,7 @@
       <module name="10-factorykit" target="1.8" />
       <module name="11-factory-method" target="1.5" />
       <module name="12_abstract-factory" target="1.5" />
+      <module name="13_singleton" target="1.5" />
       <module name="java-design-patterns" target="1.5" />
     </bytecodeTargetLevel>
   </component>

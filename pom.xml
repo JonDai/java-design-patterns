@@ -18,10 +18,10 @@
 
     </properties>
     <modules>
-        <!--<module>11-abstract-factory</module>-->
         <module>10-factorykit</module>
         <module>11-factory-method</module>
         <module>12_abstract-factory</module>
+        <module>13_singleton</module>
     </modules>
 
 
