@@ -25,8 +25,10 @@
         <processorPath useClasspath="true" />
         <module name="11-abstract-factory" />
         <module name="11-factory-method" />
+        <module name="11_factory-method" />
         <module name="12_abstract-factory" />
         <module name="13_singleton" />
+        <module name="14_builder" />
         <module name="abstract-factory" />
       </profile>
       <profile default="false" name="Annotation profile for 10-factorykit" enabled="true">
@@ -36,12 +38,22 @@
         <processorPath useClasspath="true" />
         <module name="10-factorykit" />
       </profile>
+      <profile default="false" name="Annotation profile for 10_factorykit" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="10_factorykit" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="10-factorykit" target="1.8" />
+      <module name="10_factorykit" target="1.8" />
       <module name="11-factory-method" target="1.5" />
+      <module name="11_factory-method" target="1.5" />
       <module name="12_abstract-factory" target="1.5" />
       <module name="13_singleton" target="1.5" />
+      <module name="14_builder" target="1.5" />
       <module name="java-design-patterns" target="1.5" />
     </bytecodeTargetLevel>
   </component>
